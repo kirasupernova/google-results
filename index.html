@@ -9,12 +9,13 @@
     </head>
     <body>
         <header>
+            <div id="topsearch">
             <img id="logo" src="images/googlelogo_color_272x92dp.png" alt="Google">
             <form class="searchbar">
                 <div id="searchbar">
                     <label for="search"></label>
-                    <input type="text" name="search" required>
-                    <span class="material-icons">search</span>
+                    <input type="text" name="search" placeholder="build this webpage" required>
+                    <span class="material-icons" id="close">close</span>
                     <span class="material-icons">search</span>
                 </div>
             </form>
@@ -22,9 +23,44 @@
                 <li><a href=""><span class="material-icons" id="apps">apps</span></a></li>
                 <li><a href=""><div class="circle">K</div></a></li>
             </ul>
+            </div>
+            <div id="topnav">
+                <ul id="topleftnav">
+                    <li id="all"><a href=""><span class="material-icons matic">search</span> All</a></li>
+                    <li><a href=""><span class="material-icons matic">article</span> News</a></li>
+                    <li><a href=""><span class="material-icons matic">location_on</span> Maps</a></li>
+                    <li><a href=""><span class="material-icons matic">smart_display</span> Video</a></li>
+                    <li><a href=""><span class="material-icons matic">crop_original</span> Images</a></li>
+                    <li><a href=""><span class="material-icons matic">more_vert</span> More</a></li>
+                </ul>
+                <ul id="toprightnav">
+                    <li><a href="">Settings</a></li>
+                    <li><a href="">Tools</a></li>
+                </ul>
+            </div>
         </header>
         <main>
-
+            <div id="searchresults">
+                <p>About 134,000,000 results (0.54 seconds)</p>
+                <div class="textresult">
+                    <a href="" class="sourcelink">
+                        <div class="source"><p><strong>Ad </strong></p><span> &#183; </span><p> https://www.wix.com/</p><span class="material-icons">
+                            arrow_drop_down
+                            </span></div>
+                        <h2 class="resultheading">Build Your Own Website - Start with a Stunning Template</h2>
+                    </a>
+                    <p class="description">Build a Site with the Best Website Builder and Access Leading Drag & Drop Design Tools.</p>
+                </div>
+                <div class="textresult">
+                    <a href="" class="sourcelink">
+                        <div class="source"><p><strong>Ad </strong></p><span> &#183; </span><p> https://www.crazydomains.co.nz/web_builder/20_off</p><span class="material-icons">
+                            arrow_drop_down
+                            </span></div>
+                        <h2 class="resultheading">Build and Launch Your Website - 20% Discount Until June</h2>
+                    </a>
+                    <p class="description">User-friendly Drag & Drop Website Builder. Edit On-The-Go From Any Device, Anywhere​. Your Business Is Better Off Online. Enjoy With 20% Off If You Purchase By 30 June. ​. </p>
+                </div>
+            </div>
         </main>
         <footer>
 
